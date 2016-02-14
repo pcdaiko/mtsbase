@@ -1,0 +1,93 @@
+[
+    {
+        "name": "paypal/sdk-core-php",
+        "version": "v1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paypal/sdk-core-php.git",
+            "reference": "4a30b05e33b351077f917f8178fbc52996f8cde2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paypal/sdk-core-php/zipball/4a30b05e33b351077f917f8178fbc52996f8cde2",
+            "reference": "4a30b05e33b351077f917f8178fbc52996f8cde2",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2013-02-12 09:27:12",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache2"
+        ],
+        "authors": [
+            {
+                "name": "PayPal",
+                "homepage": "https://github.com/paypal/sdk-core-php/contributors"
+            }
+        ],
+        "description": "PayPal Core SDK for PHP",
+        "homepage": "https://x.com",
+        "keywords": [
+            "paypal",
+            "php",
+            "sdk"
+        ]
+    },
+    {
+        "name": "paypal/merchant-sdk-php",
+        "version": "v2.2.98",
+        "version_normalized": "2.2.98.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paypal/merchant-sdk-php.git",
+            "reference": "e20ad92fe2c7f2d866a524bc8c0b24450f692e07"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paypal/merchant-sdk-php/zipball/e20ad92fe2c7f2d866a524bc8c0b24450f692e07",
+            "reference": "e20ad92fe2c7f2d866a524bc8c0b24450f692e07",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "paypal/sdk-core-php": "v1.1",
+            "php": ">=5.2.0"
+        },
+        "time": "2013-02-25 11:22:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache2"
+        ],
+        "authors": [
+            {
+                "name": "PayPal",
+                "homepage": "https://github.com/paypal/merchant-sdk-php/contributors"
+            }
+        ],
+        "description": "PayPal Core SDK for PHP",
+        "homepage": "https://www.x.com/developers/paypal",
+        "keywords": [
+            "paypal",
+            "php",
+            "sdk"
+        ]
+    }
+]
